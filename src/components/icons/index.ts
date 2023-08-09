@@ -1,0 +1,17 @@
+export { default as HomeIcon } from "./HomeIcon";
+export { default as MenuIcon } from "./MenuIcon";
+export { default as ArrowDownIcon } from "./ArrowDownIcon";
+export { default as NotificationsIcon } from "./NotificationsIcon";
+export { default as FilterIcon } from "./FilterIcon";
+export { default as PlusIcon } from "./PlusIcon";
+export { default as PDFIcon } from "./PDFIcon";
+export { default as SortIcon } from "./SortIcon";
+export { default as XLSIcon } from "./XLSIcon";
+export { default as FirstCEllIcon } from "./FirstCEllIcon";
+export { default as DealIcon } from "./DealIcon";
+export { default as ViewIcon } from "./ViewIcon";
+export { default as EditIcon } from "./EditIcon";
+export { default as DeleteIcon } from "./DeleteIcon";
+export { default as DeleteIMsgIcon } from "./DeleteIMsgIcon";
+export { default as PagnationLeftIcon } from "./PagnationLeftIcon";
+export { default as PagnationRightIcon } from "./PagnationRightIcon";
