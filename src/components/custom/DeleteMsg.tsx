@@ -11,20 +11,35 @@ export default function DeleteMsg({
 	const { t } = useTranslation();
 	const theme = useTheme();
 	return (
-		<Stack py={"55px"} px={"15px"} alignItems={"center"} borderRadius={"26px !important"}>
+		<Stack
+			py={"55px"}
+			px={"15px"}
+			alignItems={"center"}
+			borderRadius={"26px !important"}
+		>
 			<DeleteIMsgIcon />
 			<Typography
 				mt={"20px"}
 				fontSize={36}
 				fontWeight={500}
+				textAlign={"center"}
 				sx={{ color: theme.palette.mutedText5.main }}
 			>
 				{t("deleteTitle")}
 			</Typography>
-			<Typography fontSize={36} fontWeight={500} color={"error"}>
+			<Typography
+				textAlign={"center"}
+				fontSize={36}
+				fontWeight={500}
+				color={"error"}
+			>
 				{itemToDelete}
 			</Typography>
-			<Typography fontSize={27} sx={{ color: theme.palette.mutedText5.main }}>
+			<Typography
+				fontSize={27}
+				sx={{ color: theme.palette.mutedText5.main }}
+				textAlign={"center"}
+			>
 				{t("subTitleDelete")}
 			</Typography>
 			<Stack
