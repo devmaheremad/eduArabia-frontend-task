@@ -44,14 +44,14 @@ function EnhancedTableHead(props: EnhancedTableProps) {
 			numeric: true,
 			disablePadding: false,
 			label: t("numberOfSubscribers"),
-			width: "160px",
+			width: "180px",
 		},
 		{
 			id: "numberOfQuestions",
 			numeric: true,
 			disablePadding: false,
 			label: t("numberOfQuestions"),
-			width: "120px",
+			width: "140px",
 		},
 		{
 			id: "startDate",
@@ -65,7 +65,7 @@ function EnhancedTableHead(props: EnhancedTableProps) {
 			numeric: true,
 			disablePadding: false,
 			label: t("endDate"),
-			width: "140px",
+			width: "160px",
 		},
 		{
 			id: "actions",
@@ -109,6 +109,7 @@ function EnhancedTableHead(props: EnhancedTableProps) {
 							fontWeight: 700,
 							fontSize: 16,
 							"& .MuiButtonBase-root": {
+								textAlign: "center",
 								cursor: headCell.numeric
 									? "pointer !important"
 									: "default !important",
