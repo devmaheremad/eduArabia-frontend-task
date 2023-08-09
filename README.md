@@ -2,6 +2,8 @@
 
 ###### ![Frontend Task](https://i.ibb.co/nMPK0N2/screencapture-localhost-3000-2023-08-09-09-53-26.png)
 
+###### [Watch it here live](https://eduarabia.netlify.app/)
+
 #### - What I used technologies to build Frontend Task?
 
 The important things I used to create Frontend Task are (ReactJS v18.2.0, TypeScript 4.9, Material UI v5.11.1, State Management ( ReduxToolkit ), and more...)
